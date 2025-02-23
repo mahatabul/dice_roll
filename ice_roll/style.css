@@ -1,0 +1,58 @@
+body {
+  background-color: hsl(208, 23%, 87%);
+}
+#container {
+  font-weight: 700;
+  font-size: larger;
+  width: 900px;
+  height: 500px;
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+  padding: 5px 5px;
+  background-color: aliceblue;
+  box-shadow: 12px 12px 9px rgba(0, 0, 0, 0.73);
+}
+
+#container h1 {
+  color: rgba(255, 27, 6, 0.929);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#container button {
+  color: rgba(253, 252, 252, 0.929);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  font-weight: 500;
+  background-color: rgb(252, 110, 9);
+  padding: 3px 10px;
+  border: 1px solid rgb(252, 110, 9);
+  border-radius: 22px;
+}
+
+#container button:hover {
+  background-color: hsla(25, 98%, 51%, 0.748);
+}
+#container button:active {
+  background-color: hsl(25, 98%, 51%);
+}
+#container input{
+  width: 100px;text-align: center;font-size: medium;
+}
+#output_text {
+  font-family: cursive;
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#output_images {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#output_images img {
+  width: 100px;
+  height: auto;
+  margin: 5px;
+}
